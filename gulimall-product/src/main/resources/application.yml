@@ -7,6 +7,12 @@ spring:
     url: jdbc:mysql://192.168.253.128:3306/gulimall_pms
     username: root
     password: root
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  application:
+    name: gulimall-product
 
 mybatis-plus:
   global-config:
